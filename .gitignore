@@ -1,0 +1,30 @@
+
+# Node.js dependencies
+node_modules/
+AeroCast_Dashboard/backend/node_modules/
+
+# Large datasets
+data/
+
+# Pretrained model files
+models/
+
+# Generated evaluation outputs
+evaluation/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
