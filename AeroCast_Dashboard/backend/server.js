@@ -22,7 +22,7 @@ const { parse } = require('csv-parse/sync');
 const PORT = Number(process.env.PORT) || 3000;
 
 const ROOT_DIR = path.resolve(__dirname, '..');
-const EVALUATION_DIR = path.resolve(ROOT_DIR, '..', 'evaluation');
+const EVALUATION_DIR = path.join(__dirname, 'evaluation');
 const FRONTEND_DIR = path.join(ROOT_DIR, 'frontend');
 
 

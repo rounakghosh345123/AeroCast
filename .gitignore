@@ -9,8 +9,14 @@ data/
 # Pretrained model files
 models/
 
-# Generated evaluation outputs
+# Generated evaluation outputs (keep root-level files ignored)
 evaluation/
+
+# Include only the dashboard's required deployment CSVs
+!AeroCast_Dashboard/backend/evaluation/
+!AeroCast_Dashboard/backend/evaluation/aerocast_forecast_results.csv
+!AeroCast_Dashboard/backend/evaluation/aerocast_aqi_forecast.csv
+!AeroCast_Dashboard/backend/evaluation/aerocast_trend_analysis.csv
 
 # Python cache and temporary files
 __pycache__/
